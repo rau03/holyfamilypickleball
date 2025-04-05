@@ -1,6 +1,6 @@
 # Holy Family Pickleball Club Website
 
-A modern, responsive website for the Holy Family Pickleball Club built with Next.js and Tailwind CSS. The website provides information about pickleball sessions, schedules, and community engagement opportunities.
+A modern, responsive website for the Holy Family Pickleball Club was built with Next.js and Tailwind CSS. The website provides information about pickleball sessions, schedules, and community engagement opportunities.
 
 ## Features
 
@@ -28,12 +28,14 @@ A modern, responsive website for the Holy Family Pickleball Club built with Next
 ### Installation
 
 1. Clone the repository:
+
 ```bash
-git clone https://github.com/YOUR-USERNAME/holyfamilypickleball.git
+git clone https://github.com/rau03/holyfamilypickleball.git
 cd holyfamilypickleball
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 # or
@@ -41,6 +43,7 @@ yarn install
 ```
 
 3. Start the development server:
+
 ```bash
 npm run dev
 # or
@@ -50,15 +53,17 @@ yarn dev
 4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
 ## Project Structure
+
+```
 holyfamilypickleball/
 ├── src/
-│ ├── app/ # App router pages
-│ ├── components/ # Reusable components
-│ └── styles/ # Global styles
-├── public/ # Static assets
-├── tailwind.config.js # Tailwind CSS configuration
-└── package.json # Project dependencies
-
+│   ├── app/              # App router pages
+│   ├── components/       # Reusable components
+│   └── styles/          # Global styles
+├── public/              # Static assets
+├── tailwind.config.js   # Tailwind CSS configuration
+└── package.json         # Project dependencies
+```
 
 ## Pages
 
@@ -70,6 +75,7 @@ holyfamilypickleball/
 ## Styling
 
 The project uses a neo-brutalism design style with:
+
 - Custom button styles
 - Card components
 - Consistent typography
@@ -88,4 +94,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 For any questions or concerns, please reach out through the contact form on the website.
 
 ---
+
 Built with ❤️ for the Holy Family Pickleball Community
+
