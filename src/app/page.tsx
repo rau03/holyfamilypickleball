@@ -1,5 +1,4 @@
 import Navigation from "@/components/Navigation";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -8,17 +7,17 @@ export default function Home() {
 
       {/* Hero Section */}
       <div className="relative bg-primary">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+        <div className="px-4 py-24 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="neo-brutalism-title text-white">
+            <h1 className="text-white neo-brutalism-title">
               Welcome to Holy Family Pickleball
             </h1>
-            <p className="mt-3 max-w-md mx-auto text-xl text-white font-bold">
+            <p className="max-w-md mx-auto mt-3 text-xl font-bold text-white">
               Join our vibrant community of pickleball enthusiasts. All skill
               levels welcome!
             </p>
-            <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="/schedule" className="neo-brutalism-button bg-white">
+            <div className="flex flex-col justify-center gap-4 mt-8 sm:flex-row">
+              <a href="/schedule" className="bg-white neo-brutalism-button">
                 View Schedule
               </a>
               <a href="/contact" className="neo-brutalism-button bg-accent">
@@ -31,12 +30,12 @@ export default function Home() {
 
       {/* Features Section */}
       <div className="py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
             <div className="neo-brutalism-card">
-              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-secondary text-white mx-auto">
+              <div className="flex items-center justify-center w-12 h-12 mx-auto text-white rounded-md bg-secondary">
                 <svg
-                  className="h-6 w-6"
+                  className="w-6 h-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -59,9 +58,9 @@ export default function Home() {
             </div>
 
             <div className="neo-brutalism-card">
-              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-secondary text-white mx-auto">
+              <div className="flex items-center justify-center w-12 h-12 mx-auto text-white rounded-md bg-secondary">
                 <svg
-                  className="h-6 w-6"
+                  className="w-6 h-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -82,9 +81,9 @@ export default function Home() {
             </div>
 
             <div className="neo-brutalism-card">
-              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-secondary text-white mx-auto">
+              <div className="flex items-center justify-center w-12 h-12 mx-auto text-white rounded-md bg-secondary">
                 <svg
-                  className="h-6 w-6"
+                  className="w-6 h-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -101,8 +100,8 @@ export default function Home() {
                 Equipment Provided
               </h3>
               <p className="mt-2 text-black">
-                Don't have equipment? No problem! We provide paddles and balls
-                for all players.
+                Don&apos;t have equipment? No problem! We provide paddles and
+                balls for all players.
               </p>
             </div>
           </div>
@@ -111,16 +110,16 @@ export default function Home() {
 
       {/* CTA Section */}
       <div className="bg-accent">
-        <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-          <div className="neo-brutalism-card bg-accent text-center">
-            <h2 className="neo-brutalism-title text-black">
+        <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
+          <div className="text-center neo-brutalism-card bg-accent">
+            <h2 className="text-black neo-brutalism-title">
               Ready to join us?
             </h2>
             <p className="mt-4 text-xl font-bold text-black">
               Sign up for our next session today.
             </p>
             <div className="mt-8">
-              <a href="/contact" className="neo-brutalism-button bg-white">
+              <a href="/contact" className="bg-white neo-brutalism-button">
                 Get started
               </a>
             </div>

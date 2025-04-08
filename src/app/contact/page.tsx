@@ -37,8 +37,8 @@ export default function Contact() {
         <div className="text-center bg-primary p-8 neo-brutalism text-white mb-8">
           <h1 className="neo-brutalism-title text-white">Contact Us</h1>
           <p className="mt-3 max-w-2xl mx-auto text-xl font-bold text-white">
-            Have questions about our pickleball sessions? We'd love to hear from
-            you.
+            Have questions about our pickleball sessions? We&apos;d love to hear
+            from you.
           </p>
         </div>
 
