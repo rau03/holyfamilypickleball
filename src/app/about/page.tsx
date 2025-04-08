@@ -6,18 +6,18 @@ export default function About() {
       <Navigation />
 
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <div className="text-center">
-          <h1 className="neo-brutalism-title text-black">
+        <div className="text-center bg-primary p-8 neo-brutalism text-white mb-8">
+          <h1 className="neo-brutalism-title text-white">
             About Holy Family Pickleball
           </h1>
-          <p className="mt-3 max-w-2xl mx-auto text-xl font-bold text-black">
+          <p className="mt-3 max-w-2xl mx-auto text-xl font-bold text-white">
             Join our vibrant community of pickleball enthusiasts
           </p>
         </div>
 
         <div className="mt-12">
-          <div className="neo-brutalism-card">
-            <h2 className="neo-brutalism-subtitle text-black">Our Story</h2>
+          <div className="neo-brutalism-card bg-white">
+            <h2 className="neo-brutalism-subtitle text-primary">Our Story</h2>
             <p className="mt-1 text-black font-bold">
               Building community through pickleball
             </p>
@@ -41,21 +41,21 @@ export default function About() {
             <h2 className="neo-brutalism-subtitle text-black">What We Offer</h2>
             <div className="mt-4 space-y-4">
               <div className="neo-brutalism-card bg-white">
-                <h3 className="text-lg font-bold text-black">Equipment</h3>
+                <h3 className="text-lg font-bold text-primary">Equipment</h3>
                 <p className="mt-2 text-black">
                   We provide all necessary equipment including paddles and
                   balls. Feel free to bring your own equipment if you prefer.
                 </p>
               </div>
               <div className="neo-brutalism-card bg-white">
-                <h3 className="text-lg font-bold text-black">Instruction</h3>
+                <h3 className="text-lg font-bold text-primary">Instruction</h3>
                 <p className="mt-2 text-black">
                   Basic instruction is available for beginners. Our experienced
                   players are happy to help newcomers learn the game.
                 </p>
               </div>
               <div className="neo-brutalism-card bg-white">
-                <h3 className="text-lg font-bold text-black">Community</h3>
+                <h3 className="text-lg font-bold text-primary">Community</h3>
                 <p className="mt-2 text-black">
                   Join our friendly community of players who share a passion for
                   pickleball and good company.
@@ -64,12 +64,12 @@ export default function About() {
             </div>
           </div>
 
-          <div className="mt-8 neo-brutalism-card bg-secondary">
+          <div className="mt-8 neo-brutalism-card bg-primary">
             <h2 className="neo-brutalism-subtitle text-black">
               Getting Started
             </h2>
             <div className="mt-4">
-              <ol className="list-decimal list-inside space-y-2 text-black">
+              <ol className="list-decimal list-inside space-y-2 text-black font-bold">
                 <li>Check our schedule for upcoming sessions</li>
                 <li>Arrive 10 minutes before the session start time</li>
                 <li>Introduce yourself to our club members</li>

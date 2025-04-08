@@ -27,19 +27,19 @@ export default function Schedule() {
       <Navigation />
 
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <div className="text-center">
-          <h1 className="neo-brutalism-title text-black">
+        <div className="text-center bg-primary p-8 neo-brutalism text-white mb-8">
+          <h1 className="neo-brutalism-title text-white">
             Pickleball Schedule
           </h1>
-          <p className="mt-3 max-w-2xl mx-auto text-xl font-bold text-black">
+          <p className="mt-3 max-w-2xl mx-auto text-xl font-bold text-white">
             Join us for our regular pickleball sessions. All skill levels are
             welcome!
           </p>
         </div>
 
         <div className="mt-12">
-          <div className="neo-brutalism-card">
-            <h2 className="neo-brutalism-subtitle text-black">
+          <div className="neo-brutalism-card bg-white">
+            <h2 className="neo-brutalism-subtitle text-primary">
               Weekly Sessions
             </h2>
             <p className="mt-1 text-black font-bold">
@@ -48,7 +48,7 @@ export default function Schedule() {
             <div className="mt-6 space-y-4">
               {sessions.map((session, index) => (
                 <div key={index} className="neo-brutalism-card bg-white">
-                  <h3 className="text-xl font-bold text-black">
+                  <h3 className="text-xl font-bold text-primary">
                     {session.day}
                   </h3>
                   <div className="mt-2 grid grid-cols-1 sm:grid-cols-3 gap-4 text-black">
@@ -82,7 +82,10 @@ export default function Schedule() {
               </p>
             </div>
             <div className="mt-6">
-              <a href="/contact" className="neo-brutalism-button bg-white">
+              <a
+                href="/contact"
+                className="neo-brutalism-button bg-primary text-white"
+              >
                 Contact Us
               </a>
             </div>

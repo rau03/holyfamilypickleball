@@ -34,9 +34,9 @@ export default function Contact() {
       <Navigation />
 
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <div className="text-center">
-          <h1 className="neo-brutalism-title text-black">Contact Us</h1>
-          <p className="mt-3 max-w-2xl mx-auto text-xl font-bold text-black">
+        <div className="text-center bg-primary p-8 neo-brutalism text-white mb-8">
+          <h1 className="neo-brutalism-title text-white">Contact Us</h1>
+          <p className="mt-3 max-w-2xl mx-auto text-xl font-bold text-white">
             Have questions about our pickleball sessions? We'd love to hear from
             you.
           </p>
@@ -45,7 +45,7 @@ export default function Contact() {
         <div className="mt-12 max-w-lg mx-auto">
           <form
             onSubmit={handleSubmit}
-            className="neo-brutalism-card space-y-6"
+            className="neo-brutalism-card bg-white space-y-6"
           >
             <div>
               <label
@@ -119,7 +119,7 @@ export default function Contact() {
         </div>
 
         <div className="mt-12 max-w-lg mx-auto">
-          <div className="neo-brutalism-card bg-secondary text-white">
+          <div className="neo-brutalism-card bg-primary text-black">
             <h3 className="neo-brutalism-subtitle">Additional Information</h3>
             <div className="mt-4 space-y-4">
               <div>
