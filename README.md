@@ -1,6 +1,6 @@
 # Holy Family Pickleball Club Website
 
-A modern, responsive website for the Holy Family Pickleball Club built with Next.js and Tailwind CSS. The website provides information about pickleball sessions, schedules, and community engagement opportunities.
+A modern, responsive website for the Holy Family Pickleball Club was built with Next.js and Tailwind CSS. The website provides information about pickleball sessions, schedules, and community engagement opportunities.
 
 ## Features
 
